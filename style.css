@@ -1,0 +1,98 @@
+@font-face {
+    font-family:DM Serif Display;
+    src: url(DMSerifDisplay-Regular.ttf);
+}
+
+body{
+    color: #483b32;
+    font-family: DM Serif Display;
+    width: 80%;
+    height: auto;     
+    margin: auto;
+    position: sticky;
+    }
+
+
+.navbar{
+    position: absolute;
+    top:0%;
+    bottom:auto;
+    left:0%;
+    right: 0%;
+    width: auto;
+    height: auto;
+    background: transparent;
+}
+
+.wrapper{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 1450px;
+    height: 50px;
+    background: #F6F3EE;
+}
+.w-inline-block{
+    max-width: 100%;
+    display: inline-block;
+}
+
+.links{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 24px;
+    display: inline-flex;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Apropos{
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.Presta{
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.Questions{
+    padding-left: 20px;
+}
+
+.Contact{
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.accueil{
+    padding-top: 50.5px; ;
+    position: relative;
+    text-align: center;
+    color:#F6F3EE;
+}
+.Centered{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    text-shadow: 1px 1px 2px #000000 ;
+}
+.Centered2{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    justify-content: center;
+    text-shadow: 1px 1px 2px #000000;
+}
+.accueilpic{
+    opacity: 0.90;
+}
